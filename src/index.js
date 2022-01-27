@@ -18,3 +18,12 @@ function renderOneImg(foxObj) {
   imgDiv.append(foxFrame);
   imgCont.append(imgDiv);
 }
+
+fetch('http://localhost:3000/species')
+  .then((resp) => resp.json())
+  .then((specArr) => {
+      specArr.forEach((specObj) => {
+        renderOneSpec(specObj)
+      })
+  });
+

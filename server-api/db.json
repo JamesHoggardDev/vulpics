@@ -1,0 +1,49 @@
+{
+  "species": [
+    {
+      "id": 1,
+      "title": "Red",
+      "endemic to": "Northern Hemisphere"
+    },
+    {
+      "id": 2,
+      "title": "Fennec",
+      "endemic to": "Northern Africa"
+    },
+    {
+      "id": 3,
+      "title": "Pale",
+      "endemic to": "Northern Africa"
+    },
+    {
+      "id": 4,
+      "title": "Rüppell's fox",
+      "endemic to": "North Africa and the Middle East"
+    },
+    {
+      "id": 5,
+      "title": "Bengal" ,
+      "endemic to": "Indian subcontinent"
+    },
+    {
+      "id": 6,
+      "title": "Tibetan sand",
+      "endemic to": "Tibetan Plateau and neighboring regions"
+    },
+    {
+      "id": 7,
+      "title": "Arctic",
+      "endemic to": "The Arctic"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
