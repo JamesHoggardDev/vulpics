@@ -2,9 +2,9 @@
   background: limegreen;
   width: 10rem;
   aspect-ratio: 1/1;
+  border: 10px solid blue;
 }
 
 .title {
   position: fixed;
-  margin: auto;
 }
