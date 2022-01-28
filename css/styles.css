@@ -7,4 +7,16 @@
 
 .title {
   position: fixed;
+  font-size: 3em;
+  margin-left: 10rem;
+}
+
+img {
+  border: 2px solid red;
+  margin-left: 60px;
+}
+
+#fox-image-container {
+  display: flex;
+  justify-content: center;
 }
