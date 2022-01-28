@@ -30,5 +30,5 @@ function renderAllSpecs(specObj) {
   specLi.dataset.id = specObj.id;
   specLi.textContent = specObj.title;
   speciesUl.append(specLi);
-}
+};
 renderAllSpecs();
