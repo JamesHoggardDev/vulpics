@@ -4,3 +4,7 @@
   aspect-ratio: 1/1;
 }
 
+.title {
+  position: fixed;
+  margin: auto;
+}

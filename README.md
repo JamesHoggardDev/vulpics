@@ -1,3 +1,3 @@
 # vulpics
 
-Random image generator desktop. 
+Random fox image generator desktop
