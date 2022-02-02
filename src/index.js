@@ -39,7 +39,8 @@ function renderAllSpecs(specObj) {
 };
 
 function updateSpecs(specObj) {
-  console.log('clicked');
+  console.log(event.target);
+  
 }
 
 renderAllSpecs();
