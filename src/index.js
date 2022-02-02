@@ -32,15 +32,20 @@ function renderAllSpecs(specObj) {
   const specLiBtn = document.createElement('button');
   specLi.dataset.id = specObj.id;
   specLiBtn.dataset.id = specObj.id;
+  specLiBtn.classList.add('sp-btn')
   specLiBtn.addEventListener('click', updateSpecs);
   specLi.textContent = specObj.title;
   specLi.append(specLiBtn);
   speciesUl.append(specLi);
 };
 
-function updateSpecs(specObj) {
-  console.log(event.target);
-  
-}
 
 renderAllSpecs();
+
+
+function updateSpecs(specObj) {
+  console.log(event.target);
+  fetch(`http://localhost:3000/species/${event.target.dataset.id}`, {
+    method: 'PUT',
+  })
+}

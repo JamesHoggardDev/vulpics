@@ -20,3 +20,12 @@ img {
   display: flex;
   justify-content: center;
 }
+
+.sp-btn {
+  display: flex;
+  background-color: #336EFF;
+  padding: 7px 20px;
+  text-decoration: none;
+  text-align: center;
+  
+}
