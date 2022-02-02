@@ -3,6 +3,8 @@ const imgCont = document.querySelector("#fox-image-container");
 const speciesUl = document.querySelector("#fox-species");
 const imgUrl = "https://randomfox.ca/floof/";
 
+
+
 fetch("https://randomfox.ca/floof/")
   .then((resp) => resp.json())
   .then((foxObj) => {
@@ -27,8 +29,17 @@ fetch('http://localhost:3000/species')
   
 function renderAllSpecs(specObj) {
   const specLi = document.createElement('li');
+  const specLiBtn = document.createElement('button');
   specLi.dataset.id = specObj.id;
+  specLiBtn.dataset.id = specObj.id;
+  specLiBtn.addEventListener('click', updateSpecs);
   specLi.textContent = specObj.title;
+  specLi.append(specLiBtn);
   speciesUl.append(specLi);
 };
+
+function updateSpecs(specObj) {
+  console.log('clicked');
+}
+
 renderAllSpecs();
