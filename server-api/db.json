@@ -1,39 +1,25 @@
 {
   "species": [
     {
-      "id": 1,
-      "title": "xfox",
-      "endemicTo": "North Africa and the Middle East"
+      "id": 1
     },
     {
-      "id": 2,
-      "title": "y fox",
-      "endemicTo": "North Africa and the Middle East"
+      "id": 2
     },
     {
-      "id": 3,
-      "title": "Pale",
-      "endemicTo": "Northern Africa"
+      "id": 3
     },
     {
-      "id": 4,
-      "title": "Rüppell's fox",
-      "endemicTo": "North Africa and the Middle East"
+      "id": 4
     },
     {
-      "id": 5,
-      "title": "Bengal",
-      "endemicTo": "Indian subcontinent"
+      "id": 5
     },
     {
-      "id": 6,
-      "title": "Tibetan sand",
-      "endemicTo": "Tibetan Plateau and neighboring regions"
+      "id": 6
     },
     {
-      "id": 7,
-      "title": "Arctic",
-      "endemicTo": "The Arctic"
+      "id": 7
     }
   ],
   "comments": [

@@ -3,8 +3,6 @@ const imgCont = document.querySelector("#fox-image-container");
 const speciesUl = document.querySelector("#fox-species");
 const imgUrl = "https://randomfox.ca/floof/";
 
-
-
 fetch("https://randomfox.ca/floof/")
   .then((resp) => resp.json())
   .then((foxObj) => {
